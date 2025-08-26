@@ -1,5 +1,5 @@
 <!-- Banner -->
-![header](https://capsule-render.vercel.app/api?type=waving&color=0:6A5ACD,50:FF00FF,100:000000&height=220&section=header&text=Hi%2C%20I'm%20TAnh%20✨🚀&fontSize=40&fontColor=ffffff&fontAlignY=35&animation=fadeIn)
+![header](https://capsule-render.vercel.app/api?type=waving&color=0:6A5ACD,50:FF00FF,100:000000&height=220&section=header&text=Hi%2C%20I'm%20TAnh%20🚀&fontSize=40&fontColor=ffffff&animation=fadeIn)
 
 ---
 
