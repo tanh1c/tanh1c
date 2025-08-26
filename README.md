@@ -36,7 +36,7 @@
 ---
 
 ## 📫 Contact
-📧 Email: **your.email@example.com**  
+📧 Email: **anh.chunguyentuan@hcmut.edu.vn**  
 💼 LinkedIn: [linkedin.com/in/tanh1c](https://linkedin.com/in/tanh1c)  
 
 ---
