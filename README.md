@@ -28,4 +28,4 @@
 ---
 
 ## 📫 Connect
-📧 *your.email@example.com* · [LinkedIn](your-linkedin-url)  
+📧 *anh.chunguyentuan@hcmut.edu.vn* 
