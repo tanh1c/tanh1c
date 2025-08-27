@@ -37,7 +37,7 @@
 
 ## 📫 Contact
 📧 Email: **anh.chunguyentuan@hcmut.edu.vn**  
-💼 LinkedIn: [[linkedin.com/in/chu-nguyen-tuan-anh-624a0b380](https://www.linkedin.com/in/chu-nguyen-tuan-anh-624a0b380/)] 
+💼 LinkedIn: [[TAnh](https://www.linkedin.com/in/chu-nguyen-tuan-anh-624a0b380/)] 
 
 ---
 
