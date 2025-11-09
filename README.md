@@ -1,45 +1,171 @@
-<!-- Banner -->
-![header](https://capsule-render.vercel.app/api?type=waving&color=0:00C9FF,100:92FE9D&height=200&section=header&text=Hi%2C%20I'm%20TAnh%20&fontSize=40&fontColor=ffffff&fontAlignY=35)
+<!-- Dynamic Banner -->
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient:0:667eea,50:764ba2,100:f093fb&height=200&section=header&text=Hi%20there%20👋&fontSize=60&fontColor=ffffff&animation=twinkling&fontAlignY=35"/>
+</div>
+
+<!-- Typing Animation -->
+<div align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=30&duration=3000&pause=1000&color=667EEA&center=true&vCenter=true&width=600&lines=I'm+TAnh+%F0%9F%91%8B;Computer+Science+Student+%F0%9F%93%9A;AI+%26+Web+Developer+%F0%9F%92%BB;Building+Amazing+Things+%F0%9F%9A%80" alt="Typing SVG" />
+</div>
 
 ---
 
-## 👨‍💻 About Me
-🎓 3rd-year **Computer Science** student @ **HCMUT**  
-💻 Passionate about **Software Engineering · AI · Web Development**  
-🌱 Currently learning **Machine Learning & Backend Development**  
+<!-- About Section -->
+## 🚀 About Me
+
+<div align="center">
+
+🎓 **3rd-year Computer Science Student** @ **Ho Chi Minh City University of Technology (HCMUT)**  
+💻 **Passionate Developer** exploring **AI · Machine Learning · Full-Stack Development**  
+🌱 Currently diving deep into **CUDA Programming & Large Language Models**  
+⚡ Fun fact: I love building projects that combine **AI** and **modern web technologies**
+
+</div>
 
 ---
 
-## ⚡ Skills & Social
+<!-- Tech Stack -->
+## 💻 Tech Stack & Tools
+
+### Languages
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
+
+### Frontend
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+
+### Backend & Database
 ![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/tanh1c)
+
+### AI & ML
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
+![CUDA](https://img.shields.io/badge/CUDA-76B900?style=for-the-badge&logo=nvidia&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
+
+### Tools & Platforms
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+![VSCode](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
 
 ---
 
-## 🚀 Projects
-- [Student Schedule](https://github.com/tanh1c/student-schedule) — JS timetable web app  
-- [Lottery Prediction](https://github.com/tanh1c/lottery-prediction) — ML-based number analysis (Python)  
-- [Envelope-2025](https://github.com/tanh1c/envelope-2025) — UI/UX web project (JS)  
+<!-- GitHub Stats -->
+## 📊 GitHub Analytics
+
+<div align="center">
+  
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=tanh1c&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=tanh1c&layout=compact&theme=tokyonight&hide_border=true&langs_count=8"/>
+  
+</div>
+
+<div align="center">
+  
+  <!-- GitHub Streak Stats -->
+  <img src="https://github-readme-streak-stats.demolab.com/?user=tanh1c&theme=tokyonight&hide_border=true" alt="GitHub Streak"/>
+  
+</div>
+
+<div align="center">
+  
+  <!-- Contribution Graph -->
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=tanh1c&theme=tokyo-night&hide_border=true&bg_color=0d1117&color=58a6ff&line=58a6ff&point=ffffff" alt="GitHub Activity Graph"/>
+  
+</div>
 
 ---
 
-## 📊 GitHub Stats
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=tanh1c&show_icons=true&theme=tokyonight&hide_border=true)  
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=tanh1c&layout=compact&theme=tokyonight&hide_border=true)
+<!-- Featured Projects -->
+## 🌟 Featured Projects
+
+### 🤖 AI & Machine Learning
+<div align="center">
+
+| Project | Description | Tech Stack |
+|---------|-------------|------------|
+| **[Word2Vec-PyCUDA](https://github.com/tanh1c/Word2Vec-PyCUDA)** | High-performance Word2Vec implementation using PyCUDA for GPU acceleration | `Python` `CUDA` `NVIDIA` |
+| **[Lottery Prediction](https://github.com/tanh1c/lottery-prediction)** | ML-based number analysis and prediction system | `Python` `Machine Learning` |
+
+</div>
+
+### 🌐 Web Development
+<div align="center">
+
+| Project | Description | Tech Stack |
+|---------|-------------|------------|
+| **[HCMUT Tutor](https://github.com/tanh1c/hcmut-tutor)** | Comprehensive Learning Management System with modern UI/UX | `TypeScript` `React` `Full-Stack` |
+| **[Student Schedule](https://github.com/tanh1c/student-schedule)** | Interactive timetable web application | `JavaScript` `Web App` |
+| **[Envelope-2025](https://github.com/tanh1c/envelope-2025)** | Modern UI/UX web project | `JavaScript` `Frontend` |
+| **[Stake Clone](https://github.com/tanh1c/stake-clone)** | Web application clone project | `JavaScript` `Web Development` |
+| **[Tutor Web](https://github.com/tanh1c/tutor-web)** | Web-based tutoring platform | `JavaScript` `Web App` |
+
+</div>
+
+### 📚 Academic Projects
+<div align="center">
+
+| Project | Description | Tech Stack |
+|---------|-------------|------------|
+| **[MM241 Assignment](https://github.com/tanh1c/MM241-Assignment)** | Mathematical Modeling Assignment - Fall 2024 | `Python` `Mathematics` |
+
+</div>
 
 ---
 
-## 📫 Contact
-📧 Email: **anh.chunguyentuan@hcmut.edu.vn**  
-💼 LinkedIn: [[TAnh](https://www.linkedin.com/in/chu-nguyen-tuan-anh-624a0b380/)] 
+<!-- Project Highlights with Cards -->
+## 💡 Project Highlights
+
+<div align="center">
+  <table>
+    <tr>
+      <td width="50%" align="center">
+        <h3>🚀 HCMUT Tutor</h3>
+        <p>Full-featured Learning Management System built with TypeScript</p>
+        <a href="https://github.com/tanh1c/hcmut-tutor">View Project →</a>
+      </td>
+      <td width="50%" align="center">
+        <h3>⚡ Word2Vec-PyCUDA</h3>
+        <p>GPU-accelerated Word2Vec implementation for high-performance NLP</p>
+        <a href="https://github.com/tanh1c/Word2Vec-PyCUDA">View Project →</a>
+      </td>
+    </tr>
+  </table>
+</div>
 
 ---
 
-<!-- Footer Banner -->
-![footer](https://capsule-render.vercel.app/api?type=waving&color=0:92FE9D,100:00C9FF&height=120&section=footer)
+<!-- Social Links -->
+## 📫 Connect With Me
+
+<div align="center">
+  
+  [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/chu-nguyen-tuan-anh-624a0b380/)
+  [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/tanh1c)
+  [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:anh.chunguyentuan@hcmut.edu.vn)
+  
+</div>
+
+<div align="center">
+  
+  📧 **Email:** anh.chunguyentuan@hcmut.edu.vn
+  
+</div>
+
+---
+
+<!-- Footer -->
+<div align="center">
+  
+  ![footer](https://capsule-render.vercel.app/api?type=waving&color=gradient:0:f093fb,50:764ba2,100:667eea&height=120&section=footer&animation=twinkling)
+  
+  <img src="https://komarev.com/ghpvc/?username=tanh1c&label=Profile%20Views&color=667eea&style=for-the-badge" alt="Profile Views"/>
+  
+  <p>Made with ❤️ by TAnh</p>
+  
+</div>
