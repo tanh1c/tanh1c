@@ -1,0 +1,77 @@
+<svg width="100%" height="300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Modern gradient background -->
+    <linearGradient id="modernGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f0c29;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#302b63;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#24243e;stop-opacity:1" />
+    </linearGradient>
+    
+    <!-- Grid pattern for modern look -->
+    <pattern id="gridPattern" width="50" height="50" patternUnits="userSpaceOnUse">
+      <path d="M 50 0 L 0 0 0 50" fill="none" stroke="rgba(255,255,255,0.05)" stroke-width="1.5"/>
+    </pattern>
+    
+    <!-- Glassmorphism effect -->
+    <filter id="glass">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="3"/>
+      <feComponentTransfer>
+        <feFuncA type="linear" slope="0.3"/>
+      </feComponentTransfer>
+    </filter>
+    
+    <!-- Glow effect -->
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    
+    <!-- Animated gradient for text -->
+    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#667eea;stop-opacity:1">
+        <animate attributeName="stop-color" values="#667eea;#764ba2;#f093fb;#667eea" dur="5s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" style="stop-color:#f093fb;stop-opacity:1">
+        <animate attributeName="stop-color" values="#f093fb;#667eea;#764ba2;#f093fb" dur="5s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="url(#modernGrad)"/>
+  <rect width="100%" height="100%" fill="url(#gridPattern)"/>
+  
+  <!-- Animated circles for depth -->
+  <circle cx="15%" cy="25%" r="80" fill="rgba(102,126,234,0.15)" filter="url(#glass)">
+    <animate attributeName="r" values="80;100;80" dur="6s" repeatCount="indefinite"/>
+    <animate attributeName="cy" values="25%;30%;25%" dur="8s" repeatCount="indefinite"/>
+  </circle>
+  
+  <circle cx="85%" cy="75%" r="90" fill="rgba(240,147,251,0.15)" filter="url(#glass)">
+    <animate attributeName="r" values="90;110;90" dur="7s" repeatCount="indefinite"/>
+    <animate attributeName="cy" values="75%;70%;75%" dur="9s" repeatCount="indefinite"/>
+  </circle>
+  
+  <!-- Geometric shapes -->
+  <polygon points="90,50 110,90 70,90" fill="rgba(118,75,162,0.2)" filter="url(#glass)" opacity="0.6">
+    <animateTransform attributeName="transform" type="rotate" values="0 90 70;360 90 70" dur="20s" repeatCount="indefinite"/>
+  </polygon>
+  
+  <!-- Main text with gradient -->
+  <text x="50%" y="45%" font-family="'Segoe UI', Arial, sans-serif" font-size="56" font-weight="bold" fill="url(#textGrad)" text-anchor="middle" dominant-baseline="middle" filter="url(#glow)">
+    Hi there 👋
+  </text>
+  
+  <!-- Subtitle -->
+  <text x="50%" y="60%" font-family="'Segoe UI', Arial, sans-serif" font-size="22" fill="rgba(255,255,255,0.85)" text-anchor="middle" dominant-baseline="middle">
+    Welcome to my GitHub Profile
+  </text>
+  
+  <!-- Decorative line -->
+  <line x1="30%" y1="70%" x2="70%" y2="70%" stroke="url(#textGrad)" stroke-width="3" stroke-linecap="round" opacity="0.6">
+    <animate attributeName="x2" values="70%;30%;70%" dur="3s" repeatCount="indefinite"/>
+  </line>
+</svg>
