@@ -1,9 +1,46 @@
-<!-- Dynamic Banner -->
+<!-- Modern Animated Banner with SVG -->
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient:0:667eea,50:764ba2,100:f093fb&height=200&section=header&text=Hi%20there%20👋&fontSize=60&fontColor=ffffff&animation=twinkling&fontAlignY=35"/>
+  <img src="https://raw.githubusercontent.com/tanh1c/tanh1c/main/banner.svg" alt="Banner" width="100%"/>
 </div>
 
-<!-- Typing Animation -->
+<!-- Alternative: Inline SVG Banner with Modern Design -->
+<div align="center">
+  <svg width="100%" height="300" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+      <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
+        <stop offset="50%" style="stop-color:#764ba2;stop-opacity:1" />
+        <stop offset="100%" style="stop-color:#f093fb;stop-opacity:1" />
+      </linearGradient>
+      <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+        <path d="M 40 0 L 0 0 0 40" fill="none" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+      </pattern>
+      <filter id="glow">
+        <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+        <feMerge>
+          <feMergeNode in="coloredBlur"/>
+          <feMergeNode in="SourceGraphic"/>
+        </feMerge>
+      </filter>
+    </defs>
+    <rect width="100%" height="100%" fill="url(#grad1)"/>
+    <rect width="100%" height="100%" fill="url(#grid)"/>
+    <circle cx="10%" cy="20%" r="50" fill="rgba(255,255,255,0.1)" filter="url(#glow)">
+      <animate attributeName="r" values="50;60;50" dur="4s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="90%" cy="80%" r="60" fill="rgba(255,255,255,0.1)" filter="url(#glow)">
+      <animate attributeName="r" values="60;70;60" dur="5s" repeatCount="indefinite"/>
+    </circle>
+    <text x="50%" y="50%" font-family="Arial, sans-serif" font-size="48" font-weight="bold" fill="white" text-anchor="middle" dominant-baseline="middle" filter="url(#glow)">
+      Hi there 👋
+    </text>
+    <text x="50%" y="65%" font-family="Arial, sans-serif" font-size="24" fill="rgba(255,255,255,0.9)" text-anchor="middle" dominant-baseline="middle">
+      Welcome to my GitHub Profile
+    </text>
+  </svg>
+</div>
+
+<!-- Modern Typing Animation -->
 <div align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=30&duration=3000&pause=1000&color=667EEA&center=true&vCenter=true&width=600&lines=I'm+TAnh+%F0%9F%91%8B;Computer+Science+Student+%F0%9F%93%9A;AI+%26+Web+Developer+%F0%9F%92%BB;Building+Amazing+Things+%F0%9F%9A%80" alt="Typing SVG" />
 </div>
@@ -67,15 +104,15 @@
 
 <div align="center">
   
-  <!-- GitHub Streak Stats -->
-  <img src="https://github-readme-streak-stats.demolab.com/?user=tanh1c&theme=tokyonight&hide_border=true" alt="GitHub Streak"/>
+  <!-- Fixed GitHub Streak - Using alternative service -->
+  <img src="https://streak-stats.demolab.com/?user=tanh1c&theme=tokyonight&hide_border=true&border_radius=10" alt="GitHub Streak"/>
   
 </div>
 
 <div align="center">
   
   <!-- Contribution Graph -->
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=tanh1c&theme=tokyo-night&hide_border=true&bg_color=0d1117&color=58a6ff&line=58a6ff&point=ffffff" alt="GitHub Activity Graph"/>
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=tanh1c&theme=tokyo-night&hide_border=true&bg_color=0d1117&color=58a6ff&line=58a6ff&point=ffffff&area=true" alt="GitHub Activity Graph"/>
   
 </div>
 
@@ -161,8 +198,6 @@
 
 <!-- Footer -->
 <div align="center">
-  
-  ![footer](https://capsule-render.vercel.app/api?type=waving&color=gradient:0:f093fb,50:764ba2,100:667eea&height=120&section=footer&animation=twinkling)
   
   <img src="https://komarev.com/ghpvc/?username=tanh1c&label=Profile%20Views&color=667eea&style=for-the-badge" alt="Profile Views"/>
   
