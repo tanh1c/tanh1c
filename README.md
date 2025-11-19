@@ -2,7 +2,7 @@
 
 <div align="center">
 
-  <img src="https://raw.githubusercontent.com/tanh1c/tanh1c/main/warmth%2C%20frogapples.gif" alt="Animated Banner" height="80%" width="80%"/>
+  <img src="https://raw.githubusercontent.com/tanh1c/tanh1c/main/warmth%2C%20frogapples.gif" alt="Animated Banner" height="60%" width="80%"/>
 
 </div>
 
