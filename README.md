@@ -1,4 +1,12 @@
-<!-- Modern Animated Banner with Sakura Theme -->
+<!-- Modern Animated Banner with SVG -->
+
+<div align="center">
+
+  <img src="https://raw.githubusercontent.com/tanh1c/tanh1c/main/banner.svg" alt="Banner" width="100%"/>
+
+</div>
+
+<!-- Alternative: Inline SVG Banner with Sakura Theme -->
 
 <div align="center">
 
@@ -6,19 +14,35 @@
 
     <defs>
 
-      <!-- Sakura petal shape -->
+      <!-- Sakura petal pattern -->
 
-      <path id="sakuraPetal" d="M0,0 C-10,-5 -15,-15 -10,-25 C-5,-20 0,-15 0,0 C0,-15 5,-20 10,-25 C15,-15 10,-5 0,0 Z" fill="#FFB6C1"/>
+      <pattern id="sakuraPattern" width="80" height="80" patternUnits="userSpaceOnUse">
 
-      <path id="sakuraPetal2" d="M0,0 C-8,-4 -12,-12 -8,-20 C-4,-16 0,-12 0,0 C0,-12 4,-16 8,-20 C12,-12 8,-4 0,0 Z" fill="#FFC0CB"/>
+        <circle cx="40" cy="40" r="3" fill="#FFB6C1" opacity="0.3"/>
 
-      <path id="sakuraPetal3" d="M0,0 C-6,-3 -9,-9 -6,-15 C-3,-12 0,-9 0,0 C0,-9 3,-12 6,-15 C9,-9 6,-3 0,0 Z" fill="#FFD1DC"/>
+        <path d="M 40 20 Q 35 25 30 20 Q 35 15 40 20" fill="#FFC0CB" opacity="0.2"/>
+
+        <path d="M 60 40 Q 55 35 60 30 Q 65 35 60 40" fill="#FFB6C1" opacity="0.2"/>
+
+        <path d="M 40 60 Q 45 55 50 60 Q 45 65 40 60" fill="#FFC0CB" opacity="0.2"/>
+
+        <path d="M 20 40 Q 25 45 20 50 Q 25 55 20 50" fill="#FFB6C1" opacity="0.2"/>
+
+      </pattern>
+
+      <!-- Grid pattern for subtle texture -->
+
+      <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+
+        <path d="M 40 0 L 0 0 0 40" fill="none" stroke="rgba(255,182,193,0.15)" stroke-width="1"/>
+
+      </pattern>
 
       <!-- Glow filter for sakura petals -->
 
-      <filter id="sakuraGlow">
+      <filter id="glow">
 
-        <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
+        <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
 
         <feMerge>
 
@@ -30,213 +54,87 @@
 
       </filter>
 
-      <!-- Branch pattern -->
+      <!-- Sakura petal shape -->
 
-      <pattern id="branchPattern" width="200" height="200" patternUnits="userSpaceOnUse">
-
-        <path d="M 50 50 Q 100 30 150 50" fill="none" stroke="#8B4513" stroke-width="3" opacity="0.3"/>
-
-      </pattern>
+      <path id="sakuraPetal" d="M 0 0 Q -10 -5 -15 0 Q -10 5 0 0 Q 10 5 15 0 Q 10 -5 0 0" fill="#FFB6C1" opacity="0.4"/>
 
     </defs>
 
-    <!-- Background - Soft pink sky color -->
+    <!-- Background with sakura color -->
 
     <rect width="100%" height="100%" fill="#FFF0F5"/>
 
-    <!-- Sakura branches at top -->
+    <!-- Sakura pattern overlay -->
 
-    <g opacity="0.4">
+    <rect width="100%" height="100%" fill="url(#sakuraPattern)"/>
 
-      <path d="M 50 30 Q 150 20 250 30 Q 350 25 450 30" fill="none" stroke="#8B4513" stroke-width="4" stroke-linecap="round"/>
+    <!-- Grid overlay -->
 
-      <path d="M 200 35 Q 220 25 240 35" fill="none" stroke="#8B4513" stroke-width="3" stroke-linecap="round"/>
+    <rect width="100%" height="100%" fill="url(#grid)"/>
 
-      <path d="M 300 35 Q 320 25 340 35" fill="none" stroke="#8B4513" stroke-width="3" stroke-linecap="round"/>
+    <!-- Floating sakura petals -->
 
-      <path d="M 100 40 Q 120 30 140 40" fill="none" stroke="#8B4513" stroke-width="3" stroke-linecap="round"/>
+    <use href="#sakuraPetal" x="15%" y="25%" filter="url(#glow)">
 
-      <path d="M 400 40 Q 420 30 440 40" fill="none" stroke="#8B4513" stroke-width="3" stroke-linecap="round"/>
+      <animateTransform attributeName="transform" type="rotate" values="0 0 0;360 0 0" dur="20s" repeatCount="indefinite"/>
 
-    </g>
+      <animate attributeName="opacity" values="0.3;0.6;0.3" dur="4s" repeatCount="indefinite"/>
 
-    <!-- Sakura flowers on branches -->
+    </use>
 
-    <g filter="url(#sakuraGlow)">
+    <use href="#sakuraPetal" x="85%" y="75%" filter="url(#glow)">
 
-      <!-- Flower 1 -->
+      <animateTransform attributeName="transform" type="rotate" values="360 0 0;0 0 0" dur="25s" repeatCount="indefinite"/>
 
-      <g transform="translate(150, 35)">
+      <animate attributeName="opacity" values="0.4;0.7;0.4" dur="5s" repeatCount="indefinite"/>
 
-        <use href="#sakuraPetal" transform="rotate(0)"/>
+    </use>
 
-        <use href="#sakuraPetal" transform="rotate(72)"/>
+    <use href="#sakuraPetal" x="70%" y="20%" filter="url(#glow)">
 
-        <use href="#sakuraPetal" transform="rotate(144)"/>
+      <animateTransform attributeName="transform" type="rotate" values="0 0 0;360 0 0" dur="18s" repeatCount="indefinite"/>
 
-        <use href="#sakuraPetal" transform="rotate(216)"/>
+      <animate attributeName="opacity" values="0.2;0.5;0.2" dur="3.5s" repeatCount="indefinite"/>
 
-        <use href="#sakuraPetal" transform="rotate(288)"/>
+    </use>
 
-        <circle cx="0" cy="0" r="3" fill="#FFD1DC"/>
+    <use href="#sakuraPetal" x="25%" y="70%" filter="url(#glow)">
 
-      </g>
+      <animateTransform attributeName="transform" type="rotate" values="360 0 0;0 0 0" dur="22s" repeatCount="indefinite"/>
 
-      <!-- Flower 2 -->
+      <animate attributeName="opacity" values="0.3;0.6;0.3" dur="4.5s" repeatCount="indefinite"/>
 
-      <g transform="translate(300, 35)">
+    </use>
 
-        <use href="#sakuraPetal2" transform="rotate(0)"/>
+    <!-- Decorative circles with sakura colors -->
 
-        <use href="#sakuraPetal2" transform="rotate(72)"/>
+    <circle cx="10%" cy="20%" r="50" fill="#FFB6C1" opacity="0.2" filter="url(#glow)">
 
-        <use href="#sakuraPetal2" transform="rotate(144)"/>
+      <animate attributeName="r" values="50;60;50" dur="4s" repeatCount="indefinite"/>
 
-        <use href="#sakuraPetal2" transform="rotate(216)"/>
+    </circle>
 
-        <use href="#sakuraPetal2" transform="rotate(288)"/>
+    <circle cx="90%" cy="80%" r="60" fill="#FFC0CB" opacity="0.25" filter="url(#glow)">
 
-        <circle cx="0" cy="0" r="2.5" fill="#FFC0CB"/>
+      <animate attributeName="r" values="60;70;60" dur="5s" repeatCount="indefinite"/>
 
-      </g>
+    </circle>
 
-      <!-- Flower 3 -->
+    <circle cx="75%" cy="15%" r="40" fill="#FFE4E1" opacity="0.3" filter="url(#glow)">
 
-      <g transform="translate(220, 40)">
+      <animate attributeName="r" values="40;50;40" dur="3.5s" repeatCount="indefinite"/>
 
-        <use href="#sakuraPetal3" transform="rotate(0)"/>
+    </circle>
 
-        <use href="#sakuraPetal3" transform="rotate(72)"/>
+    <!-- Main text with sakura accent -->
 
-        <use href="#sakuraPetal3" transform="rotate(144)"/>
-
-        <use href="#sakuraPetal3" transform="rotate(216)"/>
-
-        <use href="#sakuraPetal3" transform="rotate(288)"/>
-
-        <circle cx="0" cy="0" r="2" fill="#FFFFFF"/>
-
-      </g>
-
-      <!-- Flower 4 -->
-
-      <g transform="translate(420, 40)">
-
-        <use href="#sakuraPetal" transform="rotate(0)"/>
-
-        <use href="#sakuraPetal" transform="rotate(72)"/>
-
-        <use href="#sakuraPetal" transform="rotate(144)"/>
-
-        <use href="#sakuraPetal" transform="rotate(216)"/>
-
-        <use href="#sakuraPetal" transform="rotate(288)"/>
-
-        <circle cx="0" cy="0" r="3" fill="#FFD1DC"/>
-
-      </g>
-
-    </g>
-
-    <!-- Falling sakura petals animation -->
-
-    <g opacity="0.7">
-
-      <!-- Petal 1 -->
-
-      <g transform="translate(10%, 20%)">
-
-        <ellipse cx="0" cy="0" rx="8" ry="12" fill="#FFB6C1" filter="url(#sakuraGlow)">
-
-          <animateTransform attributeName="transform" type="translate" values="0,0; 20,100; 40,200" dur="8s" repeatCount="indefinite"/>
-
-          <animateTransform attributeName="transform" type="rotate" values="0; 360" dur="8s" repeatCount="indefinite" additive="sum"/>
-
-        </ellipse>
-
-      </g>
-
-      <!-- Petal 2 -->
-
-      <g transform="translate(30%, 10%)">
-
-        <ellipse cx="0" cy="0" rx="6" ry="10" fill="#FFC0CB" filter="url(#sakuraGlow)">
-
-          <animateTransform attributeName="transform" type="translate" values="0,0; 15,120; 30,240" dur="10s" repeatCount="indefinite"/>
-
-          <animateTransform attributeName="transform" type="rotate" values="0; -360" dur="10s" repeatCount="indefinite" additive="sum"/>
-
-        </ellipse>
-
-      </g>
-
-      <!-- Petal 3 -->
-
-      <g transform="translate(60%, 15%)">
-
-        <ellipse cx="0" cy="0" rx="7" ry="11" fill="#FFD1DC" filter="url(#sakuraGlow)">
-
-          <animateTransform attributeName="transform" type="translate" values="0,0; 25,110; 50,220" dur="9s" repeatCount="indefinite"/>
-
-          <animateTransform attributeName="transform" type="rotate" values="0; 360" dur="9s" repeatCount="indefinite" additive="sum"/>
-
-        </ellipse>
-
-      </g>
-
-      <!-- Petal 4 -->
-
-      <g transform="translate(80%, 25%)">
-
-        <ellipse cx="0" cy="0" rx="8" ry="12" fill="#FFFFFF" filter="url(#sakuraGlow)">
-
-          <animateTransform attributeName="transform" type="translate" values="0,0; 18,100; 35,200" dur="7s" repeatCount="indefinite"/>
-
-          <animateTransform attributeName="transform" type="rotate" values="0; -360" dur="7s" repeatCount="indefinite" additive="sum"/>
-
-        </ellipse>
-
-      </g>
-
-      <!-- Petal 5 -->
-
-      <g transform="translate(45%, 5%)">
-
-        <ellipse cx="0" cy="0" rx="6" ry="10" fill="#FFB6C1" filter="url(#sakuraGlow)">
-
-          <animateTransform attributeName="transform" type="translate" values="0,0; 22,115; 45,230" dur="11s" repeatCount="indefinite"/>
-
-          <animateTransform attributeName="transform" type="rotate" values="0; 360" dur="11s" repeatCount="indefinite" additive="sum"/>
-
-        </ellipse>
-
-      </g>
-
-      <!-- Petal 6 -->
-
-      <g transform="translate(70%, 8%)">
-
-        <ellipse cx="0" cy="0" rx="7" ry="11" fill="#FFC0CB" filter="url(#sakuraGlow)">
-
-          <animateTransform attributeName="transform" type="translate" values="0,0; 19,105; 38,210" dur="8.5s" repeatCount="indefinite"/>
-
-          <animateTransform attributeName="transform" type="rotate" values="0; -360" dur="8.5s" repeatCount="indefinite" additive="sum"/>
-
-        </ellipse>
-
-      </g>
-
-    </g>
-
-    <!-- Main text with sakura style -->
-
-    <text x="50%" y="50%" font-family="Arial, sans-serif" font-size="48" font-weight="bold" fill="#8B4789" text-anchor="middle" dominant-baseline="middle" opacity="0.9">
+    <text x="50%" y="50%" font-family="Arial, sans-serif" font-size="48" font-weight="bold" fill="#8B4A6B" text-anchor="middle" dominant-baseline="middle" filter="url(#glow)">
 
       Hi there 👋
 
     </text>
 
-    <text x="50%" y="65%" font-family="Arial, sans-serif" font-size="24" fill="#C71585" text-anchor="middle" dominant-baseline="middle" opacity="0.85">
+    <text x="50%" y="65%" font-family="Arial, sans-serif" font-size="24" fill="#C85A7A" text-anchor="middle" dominant-baseline="middle">
 
       Welcome to my GitHub Profile
 
@@ -250,7 +148,7 @@
 
 <div align="center">
 
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=30&duration=3000&pause=1000&color=8B4789&center=true&vCenter=true&width=600&lines=I'm+TAnh+%F0%9F%91%8B;Computer+Science+Student+%F0%9F%93%9A;AI+%26+Web+Developer+%F0%9F%92%BB;Building+Amazing+Things+%F0%9F%9A%80" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=30&duration=3000&pause=1000&color=C85A7A&center=true&vCenter=true&width=600&lines=I'm+TAnh+%F0%9F%91%8B;Computer+Science+Student+%F0%9F%93%9A;AI+%26+Web+Developer+%F0%9F%92%BB;Building+Amazing+Things+%F0%9F%9A%80" alt="Typing SVG" />
 
 </div>
 
@@ -490,7 +388,7 @@
 
   
 
-  <img src="https://komarev.com/ghpvc/?username=tanh1c&label=Profile%20Views&color=8B4789&style=for-the-badge" alt="Profile Views"/>
+  <img src="https://komarev.com/ghpvc/?username=tanh1c&label=Profile%20Views&color=C85A7A&style=for-the-badge" alt="Profile Views"/>
 
   
 
