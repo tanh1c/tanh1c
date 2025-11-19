@@ -1,206 +1,226 @@
-<!-- Modern Animated Banner with SVG -->
-<div align="center">
-  <img src="https://raw.githubusercontent.com/tanh1c/tanh1c/main/banner.svg" alt="Banner" width="100%"/>
-</div>
+<!-- Neo-Brutalism GitHub Profile -->
 
-<!-- Alternative: Inline SVG Banner with Modern Design -->
-<div align="center">
-  <svg width="100%" height="300" xmlns="http://www.w3.org/2000/svg">
+<div align="left">
+
+  <svg width="100%" height="250" xmlns="http://www.w3.org/2000/svg">
     <defs>
-      <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
-        <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
-        <stop offset="50%" style="stop-color:#764ba2;stop-opacity:1" />
-        <stop offset="100%" style="stop-color:#f093fb;stop-opacity:1" />
-      </linearGradient>
-      <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
-        <path d="M 40 0 L 0 0 0 40" fill="none" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+      <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
+        <path d="M 30 0 L 0 0 0 30" fill="none" stroke="#000000" stroke-width="2"/>
       </pattern>
-      <filter id="glow">
-        <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
-        <feMerge>
-          <feMergeNode in="coloredBlur"/>
-          <feMergeNode in="SourceGraphic"/>
-        </feMerge>
-      </filter>
     </defs>
-    <rect width="100%" height="100%" fill="url(#grad1)"/>
+    <rect width="100%" height="100%" fill="#FFFFFF"/>
     <rect width="100%" height="100%" fill="url(#grid)"/>
-    <circle cx="10%" cy="20%" r="50" fill="rgba(255,255,255,0.1)" filter="url(#glow)">
-      <animate attributeName="r" values="50;60;50" dur="4s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="90%" cy="80%" r="60" fill="rgba(255,255,255,0.1)" filter="url(#glow)">
-      <animate attributeName="r" values="60;70;60" dur="5s" repeatCount="indefinite"/>
-    </circle>
-    <text x="50%" y="50%" font-family="Arial, sans-serif" font-size="48" font-weight="bold" fill="white" text-anchor="middle" dominant-baseline="middle" filter="url(#glow)">
-      Hi there 👋
+    <rect x="20" y="20" width="calc(100% - 40)" height="calc(100% - 40)" fill="#FFFF00" stroke="#000000" stroke-width="8"/>
+    <text x="50" y="120" font-family="Arial Black, sans-serif" font-size="56" font-weight="900" fill="#000000">
+      HI THERE 👋
     </text>
-    <text x="50%" y="65%" font-family="Arial, sans-serif" font-size="24" fill="rgba(255,255,255,0.9)" text-anchor="middle" dominant-baseline="middle">
-      Welcome to my GitHub Profile
+    <text x="50" y="180" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="#000000">
+      WELCOME TO MY GITHUB PROFILE
     </text>
   </svg>
+
 </div>
 
-<!-- Modern Typing Animation -->
-<div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=30&duration=3000&pause=1000&color=667EEA&center=true&vCenter=true&width=600&lines=I'm+TAnh+%F0%9F%91%8B;Computer+Science+Student+%F0%9F%93%9A;AI+%26+Web+Developer+%F0%9F%92%BB;Building+Amazing+Things+%F0%9F%9A%80" alt="Typing SVG" />
-</div>
+<div align="left">
 
----
-
-<!-- About Section -->
-## 🚀 About Me
-
-<div align="center">
-
-🎓 **3rd-year Computer Science Student** @ **Ho Chi Minh City University of Technology (HCMUT)**  
-💻 **Passionate Developer** exploring **AI · Machine Learning · Full-Stack Development**  
-🌱 Currently diving deep into **CUDA Programming & Large Language Models**  
-⚡ Fun fact: I love building projects that combine **AI** and **modern web technologies**
+  <img src="https://readme-typing-svg.herokuapp.com?font=Arial+Black&size=32&duration=3000&pause=1000&color=000000&left=true&vCenter=true&width=800&lines=I'M+TANH+%F0%9F%91%8B;COMPUTER+SCIENCE+STUDENT+%F0%9F%93%9A;AI+%26+WEB+DEVELOPER+%F0%9F%92%BB;BUILDING+AMAZING+THINGS+%F0%9F%9A%80" alt="Typing SVG" />
 
 </div>
 
 ---
 
-<!-- Tech Stack -->
-## 💻 Tech Stack & Tools
+## 🚀 ABOUT ME
 
-### Languages
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
+<div align="left">
 
-### Frontend
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+🎓 **3RD-YEAR COMPUTER SCIENCE STUDENT** @ **HO CHI MINH CITY UNIVERSITY OF TECHNOLOGY (HCMUT)**  
 
-### Backend & Database
-![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white)
+💻 **PASSIONATE DEVELOPER** EXPLORING **AI · MACHINE LEARNING · FULL-STACK DEVELOPMENT**  
+
+🌱 CURRENTLY DIVING DEEP INTO **CUDA PROGRAMMING & LARGE LANGUAGE MODELS**  
+
+⚡ FUN FACT: I LOVE BUILDING PROJECTS THAT COMBINE **AI** AND **MODERN WEB TECHNOLOGIES**
+
+</div>
+
+---
+
+## 💻 TECH STACK & TOOLS
+
+### LANGUAGES
+
+<div align="left">
+
+![Python](https://img.shields.io/badge/PYTHON-3776AB?style=flat-square&logo=python&logoColor=white&labelColor=000000&color=FFFF00)
+
+![TypeScript](https://img.shields.io/badge/TYPESCRIPT-3178C6?style=flat-square&logo=typescript&logoColor=white&labelColor=000000&color=FFFF00)
+
+![JavaScript](https://img.shields.io/badge/JAVASCRIPT-F7DF1E?style=flat-square&logo=javascript&logoColor=000000&labelColor=000000&color=FFFF00)
+
+![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=c%2B%2B&logoColor=white&labelColor=000000&color=FFFF00)
+
+</div>
+
+### FRONTEND
+
+<div align="left">
+
+![React](https://img.shields.io/badge/REACT-20232A?style=flat-square&logo=react&logoColor=61DAFB&labelColor=000000&color=FFFF00)
+
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white&labelColor=000000&color=FFFF00)
+
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white&labelColor=000000&color=FFFF00)
+
+</div>
+
+### BACKEND & DATABASE
+
+<div align="left">
+
+![Node.js](https://img.shields.io/badge/NODE.JS-43853D?style=flat-square&logo=node.js&logoColor=white&labelColor=000000&color=FFFF00)
+
+![MongoDB](https://img.shields.io/badge/MONGODB-4EA94B?style=flat-square&logo=mongodb&logoColor=white&labelColor=000000&color=FFFF00)
+
+![MySQL](https://img.shields.io/badge/MYSQL-005C84?style=flat-square&logo=mysql&logoColor=white&labelColor=000000&color=FFFF00)
+
+</div>
 
 ### AI & ML
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
-![CUDA](https://img.shields.io/badge/CUDA-76B900?style=for-the-badge&logo=nvidia&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
 
-### Tools & Platforms
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
-![VSCode](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
+<div align="left">
 
----
+![PyTorch](https://img.shields.io/badge/PYTORCH-EE4C2C?style=flat-square&logo=pytorch&logoColor=white&labelColor=000000&color=FFFF00)
 
-<!-- GitHub Stats -->
-## 📊 GitHub Analytics
+![CUDA](https://img.shields.io/badge/CUDA-76B900?style=flat-square&logo=nvidia&logoColor=white&labelColor=000000&color=FFFF00)
 
-<div align="center">
-  
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=tanh1c&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=tanh1c&layout=compact&theme=tokyonight&hide_border=true&langs_count=8"/>
-  
-</div>
-
-<div align="center">
-  
-  <!-- Fixed GitHub Streak - Using alternative service -->
-  <img src="https://streak-stats.demolab.com/?user=tanh1c&theme=tokyonight&hide_border=true&border_radius=10" alt="GitHub Streak"/>
-  
-</div>
-
-<div align="center">
-  
-  <!-- Contribution Graph -->
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=tanh1c&theme=tokyo-night&hide_border=true&bg_color=0d1117&color=58a6ff&line=58a6ff&point=ffffff&area=true" alt="GitHub Activity Graph"/>
-  
-</div>
-
----
-
-<!-- Featured Projects -->
-## 🌟 Featured Projects
-
-### 🤖 AI & Machine Learning
-<div align="center">
-
-| Project | Description | Tech Stack |
-|---------|-------------|------------|
-| **[Word2Vec-PyCUDA](https://github.com/tanh1c/Word2Vec-PyCUDA)** | High-performance Word2Vec implementation using PyCUDA for GPU acceleration | `Python` `CUDA` `NVIDIA` |
-| **[Lottery Prediction](https://github.com/tanh1c/lottery-prediction)** | ML-based number analysis and prediction system | `Python` `Machine Learning` |
+![TensorFlow](https://img.shields.io/badge/TENSORFLOW-FF6F00?style=flat-square&logo=tensorflow&logoColor=white&labelColor=000000&color=FFFF00)
 
 </div>
 
-### 🌐 Web Development
-<div align="center">
+### TOOLS & PLATFORMS
 
-| Project | Description | Tech Stack |
-|---------|-------------|------------|
-| **[HCMUT Tutor](https://github.com/tanh1c/hcmut-tutor)** | Comprehensive Learning Management System with modern UI/UX | `TypeScript` `React` `Full-Stack` |
-| **[Student Schedule](https://github.com/tanh1c/student-schedule)** | Interactive timetable web application | `JavaScript` `Web App` |
-| **[Envelope-2025](https://github.com/tanh1c/envelope-2025)** | Modern UI/UX web project | `JavaScript` `Frontend` |
-| **[Stake Clone](https://github.com/tanh1c/stake-clone)** | Web application clone project | `JavaScript` `Web Development` |
-| **[Tutor Web](https://github.com/tanh1c/tutor-web)** | Web-based tutoring platform | `JavaScript` `Web App` |
+<div align="left">
 
-</div>
+![Git](https://img.shields.io/badge/GIT-F05032?style=flat-square&logo=git&logoColor=white&labelColor=000000&color=FFFF00)
 
-### 📚 Academic Projects
-<div align="center">
+![GitHub](https://img.shields.io/badge/GITHUB-181717?style=flat-square&logo=github&logoColor=white&labelColor=000000&color=FFFF00)
 
-| Project | Description | Tech Stack |
-|---------|-------------|------------|
-| **[MM241 Assignment](https://github.com/tanh1c/MM241-Assignment)** | Mathematical Modeling Assignment - Fall 2024 | `Python` `Mathematics` |
+![VSCode](https://img.shields.io/badge/VS_CODE-007ACC?style=flat-square&logo=visual-studio-code&logoColor=white&labelColor=000000&color=FFFF00)
 
 </div>
 
 ---
 
-<!-- Project Highlights with Cards -->
-## 💡 Project Highlights
+## 📊 GITHUB ANALYTICS
 
-<div align="center">
+<div align="left">
+
+  <img height="200em" src="https://github-readme-stats.vercel.app/api?username=tanh1c&show_icons=true&theme=dark&hide_border=false&include_all_commits=true&count_private=true&bg_color=FFFF00&title_color=000000&icon_color=000000&text_color=000000&border_color=000000&border_width=5"/>
+
+  <img height="200em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=tanh1c&layout=compact&theme=dark&hide_border=false&langs_count=8&bg_color=FFFF00&title_color=000000&text_color=000000&border_color=000000&border_width=5"/>
+
+</div>
+
+<div align="left">
+
+  <img src="https://streak-stats.demolab.com/?user=tanh1c&theme=dark&hide_border=false&border_radius=0&background=FFFF00&border=000000&stroke=000000&ring=000000&fire=FF0000&currStreakLabel=000000&sideLabels=000000&currStreakNum=000000&sideNums=000000&dates=000000" alt="GitHub Streak"/>
+
+</div>
+
+<div align="left">
+
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=tanh1c&theme=minimal&hide_border=false&bg_color=FFFF00&color=000000&line=000000&point=000000&area=true&area_color=FFFF00" alt="GitHub Activity Graph"/>
+
+</div>
+
+---
+
+## 🌟 FEATURED PROJECTS
+
+### 🤖 AI & MACHINE LEARNING
+
+<div align="left">
+
+| PROJECT | DESCRIPTION | TECH STACK |
+|---------|-------------|------------|
+| **[WORD2VEC-PYCUDA](https://github.com/tanh1c/Word2Vec-PyCUDA)** | HIGH-PERFORMANCE WORD2VEC IMPLEMENTATION USING PYCUDA FOR GPU ACCELERATION | `PYTHON` `CUDA` `NVIDIA` |
+| **[LOTTERY PREDICTION](https://github.com/tanh1c/lottery-prediction)** | ML-BASED NUMBER ANALYSIS AND PREDICTION SYSTEM | `PYTHON` `MACHINE LEARNING` |
+
+</div>
+
+### 🌐 WEB DEVELOPMENT
+
+<div align="left">
+
+| PROJECT | DESCRIPTION | TECH STACK |
+|---------|-------------|------------|
+| **[HCMUT TUTOR](https://github.com/tanh1c/hcmut-tutor)** | COMPREHENSIVE LEARNING MANAGEMENT SYSTEM WITH MODERN UI/UX | `TYPESCRIPT` `REACT` `FULL-STACK` |
+| **[STUDENT SCHEDULE](https://github.com/tanh1c/student-schedule)** | INTERACTIVE TIMETABLE WEB APPLICATION | `JAVASCRIPT` `WEB APP` |
+| **[ENVELOPE-2025](https://github.com/tanh1c/envelope-2025)** | MODERN UI/UX WEB PROJECT | `JAVASCRIPT` `FRONTEND` |
+| **[STAKE CLONE](https://github.com/tanh1c/stake-clone)** | WEB APPLICATION CLONE PROJECT | `JAVASCRIPT` `WEB DEVELOPMENT` |
+| **[TUTOR WEB](https://github.com/tanh1c/tutor-web)** | WEB-BASED TUTORING PLATFORM | `JAVASCRIPT` `WEB APP` |
+
+</div>
+
+### 📚 ACADEMIC PROJECTS
+
+<div align="left">
+
+| PROJECT | DESCRIPTION | TECH STACK |
+|---------|-------------|------------|
+| **[MM241 ASSIGNMENT](https://github.com/tanh1c/MM241-Assignment)** | MATHEMATICAL MODELING ASSIGNMENT - FALL 2024 | `PYTHON` `MATHEMATICS` |
+
+</div>
+
+---
+
+## 💡 PROJECT HIGHLIGHTS
+
+<div align="left">
+
   <table>
     <tr>
-      <td width="50%" align="center">
-        <h3>🚀 HCMUT Tutor</h3>
-        <p>Full-featured Learning Management System built with TypeScript</p>
-        <a href="https://github.com/tanh1c/hcmut-tutor">View Project →</a>
+      <td width="50%" align="left">
+        <h3>🚀 HCMUT TUTOR</h3>
+        <p>FULL-FEATURED LEARNING MANAGEMENT SYSTEM BUILT WITH TYPESCRIPT</p>
+        <a href="https://github.com/tanh1c/hcmut-tutor">VIEW PROJECT →</a>
       </td>
-      <td width="50%" align="center">
-        <h3>⚡ Word2Vec-PyCUDA</h3>
-        <p>GPU-accelerated Word2Vec implementation for high-performance NLP</p>
-        <a href="https://github.com/tanh1c/Word2Vec-PyCUDA">View Project →</a>
+      <td width="50%" align="left">
+        <h3>⚡ WORD2VEC-PYCUDA</h3>
+        <p>GPU-ACCELERATED WORD2VEC IMPLEMENTATION FOR HIGH-PERFORMANCE NLP</p>
+        <a href="https://github.com/tanh1c/Word2Vec-PyCUDA">VIEW PROJECT →</a>
       </td>
     </tr>
   </table>
+
 </div>
 
 ---
 
-<!-- Social Links -->
-## 📫 Connect With Me
+## 📫 CONNECT WITH ME
 
-<div align="center">
-  
-  [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/chu-nguyen-tuan-anh-624a0b380/)
-  [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/tanh1c)
-  [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:anh.chunguyentuan@hcmut.edu.vn)
-  
+<div align="left">
+
+  [![LinkedIn](https://img.shields.io/badge/LINKEDIN-0A66C2?style=flat-square&logo=linkedin&logoColor=white&labelColor=000000&color=FFFF00)](https://www.linkedin.com/in/chu-nguyen-tuan-anh-624a0b380/)
+
+  [![GitHub](https://img.shields.io/badge/GITHUB-181717?style=flat-square&logo=github&logoColor=white&labelColor=000000&color=FFFF00)](https://github.com/tanh1c)
+
+  [![Email](https://img.shields.io/badge/EMAIL-D14836?style=flat-square&logo=gmail&logoColor=white&labelColor=000000&color=FFFF00)](mailto:anh.chunguyentuan@hcmut.edu.vn)
+
 </div>
 
-<div align="center">
-  
-  📧 **Email:** anh.chunguyentuan@hcmut.edu.vn
-  
+<div align="left">
+
+  📧 **EMAIL:** ANH.CHUNGUYENTUAN@HCMUT.EDU.VN
+
 </div>
 
 ---
 
-<!-- Footer -->
-<div align="center">
-  
-  <img src="https://komarev.com/ghpvc/?username=tanh1c&label=Profile%20Views&color=667eea&style=for-the-badge" alt="Profile Views"/>
-  
-  <p>Made with ❤️ by TAnh</p>
-  
+<div align="left">
+
+  <img src="https://komarev.com/ghpvc/?username=tanh1c&label=PROFILE%20VIEWS&color=000000&style=flat-square" alt="Profile Views"/>
+
+  <p>MADE WITH ❤️ BY TANH</p>
+
 </div>
